@@ -355,11 +355,11 @@ table {
     margin: 0px auto;
     box-shadow: 10px 10px 22px 0px $secondary;
     table-layout: auto;
-    width: 100%; 
+    width: 40%; 
 }
 
 thead {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 thead tr,
@@ -371,7 +371,7 @@ tbody th {
     background-color: $accent3;
     color: white;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 0.7rem;
 }
 
 
@@ -380,11 +380,12 @@ th,
 td {
     border: 1px solid #DDD;
     border-collapse: collapse;
-    padding: 15px;
+    padding: 5px;
 }
 
 tbody {
     background: #e7ffed;
+    font-size: 0.7rem;
 }
 
 table tr:nth-child(even) {
@@ -466,4 +467,10 @@ fieldset {
     gap: 1rem;
     margin: 2rem;
 
+}
+.priority-5{
+    display:none;
+}
+.priority-4{
+    display:none;
 }

@@ -791,10 +791,12 @@ img {
 table {
   margin: 0px auto;
   box-shadow: 10px 10px 22px 0px #3E5902;
+  table-layout: auto;
+  width: 40%;
 }
 
 thead {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 thead tr,
@@ -806,7 +808,7 @@ tbody th {
   background-color: #8C8C88;
   color: white;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 0.7rem;
 }
 
 table,
@@ -814,11 +816,12 @@ th,
 td {
   border: 1px solid #DDD;
   border-collapse: collapse;
-  padding: 15px;
+  padding: 5px;
 }
 
 tbody {
   background: #e7ffed;
+  font-size: 0.7rem;
 }
 
 table tr:nth-child(even) {
@@ -893,6 +896,14 @@ fieldset {
   margin: 2rem;
 }
 
+.priority-5 {
+  display: none;
+}
+
+.priority-4 {
+  display: none;
+}
+
 @media only screen and (min-width: 560px) {
   main {
     margin: 0 auto;
@@ -947,6 +958,17 @@ fieldset {
   .cards {
     grid-template-columns: 1fr 1fr;
   }
+
+  thead {
+    font-size: 2rem;
+  }
+
+  tbody {
+    font-size: 1.2rem;
+  }
+  tbody th {
+    font-size: 1.2rem;
+  }
 }
 /* end of media query */
 @media only screen and (min-width: 960px) {
@@ -992,6 +1014,14 @@ fieldset {
 
   .container {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .priority-5 {
+    display: table-cell;
+  }
+
+  .priority-4 {
+    display: table-cell;
   }
 }
 /* end of media query */
