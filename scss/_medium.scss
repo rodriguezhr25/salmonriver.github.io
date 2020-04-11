@@ -1,4 +1,36 @@
 .herodiv {
     height: 65vh;
+    h1{
+     
+        font-family: $headerFont;
+        font-size: 2rem;
+  
+        top: 30%;
+        left: 15%;
+        
+    }
+    p{
+     
+        top: 30%;
+        left: 15%;
+        font-size: 1rem;
+    }
+    .button {
+        position: relative;
+        top: 40%;
+        left: 70%;    
+        
+    }
+    .button:link,
+.button:visited {
+
+    padding: 15px 60px;
+ 
+}
+
+ .button:hover {
+
+    padding: 17px 64px;
+}
 }
 
