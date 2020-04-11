@@ -556,6 +556,10 @@ nav {
   margin-top: 40%;
 }
 
+main img {
+  box-shadow: 0 6px 3px 0 rgba(5, 5, 5, 0.836), 0 6px 20px 0 rgba(14, 13, 13, 0.521);
+}
+
 img {
   width: 100%;
 }
@@ -573,7 +577,7 @@ img {
 .button:link,
 .button:visited {
   border: 2px solid #F2EFDF;
-  padding: 5px 30px;
+  padding: 10px 30px;
   background-color: #77A612;
   color: #EDF2C2;
   text-decoration: none;
@@ -674,7 +678,6 @@ img {
   border-radius: 8px;
   cursor: pointer;
   width: 100%;
-  opacity: 0.9;
   font-size: 20px;
   font-family: "Playfair Display", serif;
 }
@@ -706,10 +709,11 @@ img {
   }
   .herodiv .button:link,
   .herodiv .button:visited {
-    padding: 15px 60px;
+    padding: 20px 60px;
+    font-size: 1.5rem;
   }
   .herodiv .button:hover {
-    padding: 17px 64px;
+    padding: 24px 64px;
   }
 }
 /* end of media query */
