@@ -111,6 +111,14 @@ nav {
     margin: 0px auto;
     padding: 40px;
 }
+.herodivTours {
+    background: url('../images/rivers.jpg') center center no-repeat;
+    background-size: cover;   
+    height: 35vh;   
+    overflow: hidden;
+    margin: 0px auto;
+    padding: 40px;
+}
 .h1-light {
     background-color:$primary;
     color: black;
@@ -128,6 +136,11 @@ nav {
     border-radius: 8px; 
     padding: 16px;
 
+}
+.dark{
+    background-color:$primary;
+    color: white;
+    mix-blend-mode: multiply;  
 }
 .first-row {
     display: grid;
@@ -298,8 +311,7 @@ img{
 .services , .description{
     display: grid;
     grid-template-columns:  1fr;
-    column-gap: 10px;
-    row-gap: 10px;
+    gap: 1rem;
     justify-items: center;
     margin: 1rem 0;
 }

@@ -24,10 +24,11 @@ main {
 }.description{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    column-gap: 10px;
-    row-gap: 10px;
+    gap: 1rem;
     justify-items: center;
     margin: 1rem 0;
-    
+    }
 
-}
+    .pair{
+        grid-template-columns: 1fr 1fr;   
+    }

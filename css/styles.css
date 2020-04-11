@@ -546,6 +546,15 @@ nav {
   padding: 40px;
 }
 
+.herodivTours {
+  background: url("../images/rivers.jpg") center center no-repeat;
+  background-size: cover;
+  height: 35vh;
+  overflow: hidden;
+  margin: 0px auto;
+  padding: 40px;
+}
+
 .h1-light {
   background-color: #77A612;
   color: black;
@@ -562,6 +571,12 @@ nav {
   overflow-wrap: break-word;
   border-radius: 8px;
   padding: 16px;
+}
+
+.dark {
+  background-color: #77A612;
+  color: white;
+  mix-blend-mode: multiply;
 }
 
 .first-row {
@@ -730,8 +745,7 @@ img {
 .services, .description {
   display: grid;
   grid-template-columns: 1fr;
-  column-gap: 10px;
-  row-gap: 10px;
+  gap: 1rem;
   justify-items: center;
   margin: 1rem 0;
 }
@@ -788,6 +802,11 @@ table {
 }
 
 @media only screen and (min-width: 560px) {
+  main {
+    margin: 0 auto;
+    max-width: 60rem;
+  }
+
   .herodiv {
     height: 65vh;
   }
@@ -862,10 +881,13 @@ table {
   .description {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    column-gap: 10px;
-    row-gap: 10px;
+    gap: 1rem;
     justify-items: center;
     margin: 1rem 0;
+  }
+
+  .pair {
+    grid-template-columns: 1fr 1fr;
   }
 }
 /* end of media query */
