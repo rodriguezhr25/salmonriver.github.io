@@ -453,6 +453,14 @@ h2 {
   color: #77A612;
 }
 
+.subtitles {
+  text-align: center;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  color: #77A612;
+  text-shadow: 1px 1px black;
+}
+
 .top-header {
   text-align: center;
   background-color: #EDF2C2;
@@ -492,8 +500,8 @@ nav {
   background-color: #8C8C88;
 }
 .navigation a:active {
-  color: #F1F2EC;
-  background-color: #FC6414;
+  color: #ECF22E;
+  background-color: #3E5902;
   text-decoration: underline;
   transition: 0.5s;
 }
@@ -527,6 +535,33 @@ nav {
   color: white;
   font-size: 0.7rem;
   text-shadow: 1px 1px black;
+}
+
+.herodivKayac {
+  background: url("../images/kayak-home.jpg") center center no-repeat;
+  background-size: cover;
+  height: 35vh;
+  overflow: hidden;
+  margin: 0px auto;
+  padding: 40px;
+}
+
+.h1-light {
+  background-color: #77A612;
+  color: black;
+  mix-blend-mode: screen;
+  font-size: 5vw;
+  font-weight: 700;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 0;
+  margin: auto;
+  transform: translate(-50%, -50%);
+  overflow-wrap: break-word;
+  border-radius: 8px;
+  padding: 16px;
 }
 
 .first-row {
@@ -635,7 +670,6 @@ img {
 
 .informationRow {
   list-style-type: none;
-  margin: .8rem auto;
   padding: 2rem;
   background-color: #8C8C88;
   margin: 0 auto;
@@ -687,6 +721,72 @@ img {
   color: #EDF2C2;
 }
 
+.active {
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: #3E5902;
+}
+
+.services, .description {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-items: center;
+  margin: 1rem 0;
+}
+
+.tables {
+  margin: 2.5rem 0;
+}
+
+table {
+  margin: 0px auto;
+  box-shadow: 10px 10px 22px 0px #3E5902;
+}
+
+thead {
+  font-size: 2rem;
+}
+
+thead tr,
+tfoot {
+  background-color: #77A612;
+}
+
+tbody th {
+  background-color: #8C8C88;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+table,
+th,
+td {
+  border: 1px solid #DDD;
+  border-collapse: collapse;
+  padding: 15px;
+}
+
+tbody {
+  background: #e7ffed;
+}
+
+table tr:nth-child(even) {
+  background-color: #EDF2C2;
+}
+
+tfoot tr {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+table {
+  text-align: center;
+  padding: 10px;
+}
+
 @media only screen and (min-width: 560px) {
   .herodiv {
     height: 65vh;
@@ -715,6 +815,27 @@ img {
   .herodiv .button:hover {
     padding: 24px 64px;
   }
+
+  .services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .description {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-items: center;
+    margin: 1rem 0;
+  }
+
+  .first-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+  }
 }
 /* end of media query */
 @media only screen and (min-width: 960px) {
@@ -735,22 +856,6 @@ img {
   main {
     margin: 0 auto;
     max-width: 80rem;
-  }
-
-  .services {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 10px;
-    row-gap: 10px;
-    justify-items: center;
-    margin: 1rem 0;
-  }
-
-  .first-row {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 20px;
-    margin-top: 20px;
   }
 }
 /* end of media query */
