@@ -15,4 +15,19 @@ main {
 }
 
 
+.h1-light {
 
+
+    top: 50%;
+    left: 50%;
+
+}.description{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-items: center;
+    margin: 1rem 0;
+    
+
+}
