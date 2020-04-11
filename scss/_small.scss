@@ -127,6 +127,14 @@ nav {
     margin: 0px auto;
     padding: 40px;
 }
+.herodivRivers {
+    background: url('../images/staff.jpg') center center no-repeat;
+    background-size: cover;   
+    height: 35vh;   
+    overflow: hidden;
+    margin: 0px auto;
+    padding: 40px;
+}
 .h1-light {
     background-color:$primary;
     color: black;
@@ -380,4 +388,30 @@ tfoot tr {
 table {
     text-align: center;
     padding: 10px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    background-color: $accent1;
+    padding: 2rem;
+
+}
+
+.profile{
+    box-shadow: 5px 20px 50px #282b40;
+    width: 100%;
+   
+}
+
+.section {
+    background-color: #F2EFDF;
+    padding: 10px;
+
+    box-shadow: 5px 5px 10px #282b40;
+
+    p{
+
+    }
 }

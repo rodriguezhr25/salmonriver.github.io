@@ -564,6 +564,15 @@ nav {
   padding: 40px;
 }
 
+.herodivRivers {
+  background: url("../images/staff.jpg") center center no-repeat;
+  background-size: cover;
+  height: 35vh;
+  overflow: hidden;
+  margin: 0px auto;
+  padding: 40px;
+}
+
 .h1-light {
   background-color: #77A612;
   color: black;
@@ -817,6 +826,25 @@ table {
   padding: 10px;
 }
 
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  background-color: #EDF2C2;
+  padding: 2rem;
+}
+
+.profile {
+  box-shadow: 5px 20px 50px #282b40;
+  width: 100%;
+}
+
+.section {
+  background-color: #F2EFDF;
+  padding: 10px;
+  box-shadow: 5px 5px 10px #282b40;
+}
+
 @media only screen and (min-width: 560px) {
   main {
     margin: 0 auto;
@@ -867,6 +895,10 @@ table {
     top: 70%;
     left: 50%;
   }
+
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 /* end of media query */
 @media only screen and (min-width: 960px) {
@@ -904,6 +936,10 @@ table {
 
   .pair {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 /* end of media query */
