@@ -537,7 +537,7 @@ nav {
   text-shadow: 1px 1px black;
 }
 
-.herodivKayac {
+.Kayac {
   background: url("../images/kayak-home.jpg") center center no-repeat;
   background-size: cover;
   height: 35vh;
@@ -566,6 +566,15 @@ nav {
 
 .herodivRivers {
   background: url("../images/staff.jpg") center center no-repeat;
+  background-size: cover;
+  height: 35vh;
+  overflow: hidden;
+  margin: 0px auto;
+  padding: 40px;
+}
+
+.herodivContact {
+  background: url("../images/contact-hero.jpg") center center no-repeat;
   background-size: cover;
   height: 35vh;
   overflow: hidden;
@@ -607,8 +616,8 @@ nav {
 .first-row {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 20px;
-  margin-top: 20px;
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
 .slider {
@@ -845,6 +854,45 @@ table {
   box-shadow: 5px 5px 10px #282b40;
 }
 
+input:not([type=radio]),
+select,
+textarea {
+  display: block;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 60%;
+}
+
+input:required:invalid {
+  box-shadow: 4px 4px 20px rgba(50, 0, 0, 0.85);
+}
+
+input:invalid {
+  background-color: #F1F2EC;
+  color: #FC6414;
+  border: 1px solid #ECF22E;
+  outline: none;
+}
+
+fieldset {
+  padding: 2rem;
+  border-radius: 5px;
+  border-color: #3E5902;
+  margin: 1.5rem 0px;
+}
+
+.lrequired {
+  color: red;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin: 2rem;
+}
+
 @media only screen and (min-width: 560px) {
   main {
     margin: 0 auto;
@@ -940,6 +988,10 @@ table {
 
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .container {
+    grid-template-columns: 1fr 1fr;
   }
 }
 /* end of media query */
