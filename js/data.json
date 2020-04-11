@@ -1,0 +1,38 @@
+{
+"employees":
+[
+    {
+
+     "firstName":"Yetzabeth",
+     "lastName":"Garcia",
+     "position":"Executive Director and Trainer",
+     "certification": "Professional trainer",
+     "age":"32",
+     "experience":"15 years",
+     "email":"ymgarcia@salmonrivers.com",
+     "biography ":"Born in Venezuela, October 21, 1987. She has became a professional trainer for runners and many other sports while she was studying Bussiness Administration. Now with her degree and experience in sports , is directing this company."
+    },
+
+    {
+     "firstName":"Eilan",
+     "lastName": "Walker",
+     "position":"CEO, Financial Manager",
+     "certification": "Former Baseball player",
+     "age":"55",
+     "experience":"20 years",
+     "email":"ewalker@salomrivers.com",
+     "biography ":"Eilan is originary from Texas, he born in November,1975. Raised by his fthaer, a basketball player and his mother, a outstanding manager of a bank. This envirotment prepared Eilan to participate in several sports as a professional, but also learning about the experience of his family, he is prepared to handle a bussiness of sports and adventures."
+    },
+
+    {
+     "firstName":"Chris",
+     "lastName":"Bark",
+     "position":"Marketing Director",
+     "certification": "Graphic Designer",
+     "age":"30",
+     "experience":"7 years",
+     "email":"cbark@salomrivers.com",
+     "biography ":"Chris belongs to a family from Idaho, but they have lived in several countries due the demanding job of his father in International bussiness. Born in August, 1990, with a Bachelor Degreee in Graphic Design and several years of experience in many projects of marketing and branding, he is now the best option to impulse the image of this company and provide for you information about our services."
+    }
+  ]
+}
