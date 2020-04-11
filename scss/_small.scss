@@ -119,6 +119,14 @@ nav {
     margin: 0px auto;
     padding: 40px;
 }
+.herodivRun {
+    background: url('../images/hero-running.jpg') center center no-repeat;
+    background-size: cover;   
+    height: 35vh;   
+    overflow: hidden;
+    margin: 0px auto;
+    padding: 40px;
+}
 .h1-light {
     background-color:$primary;
     color: black;
@@ -135,11 +143,17 @@ nav {
     overflow-wrap: break-word;
     border-radius: 8px; 
     padding: 16px;
+    text-transform: uppercase;
 
 }
 .dark{
     background-color:$primary;
     color: white;
+    mix-blend-mode: multiply;  
+}
+.run{
+    background-color:$primary;
+    color: black;
     mix-blend-mode: multiply;  
 }
 .first-row {
