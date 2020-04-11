@@ -1,5 +1,5 @@
 
-const apiURL ="./js/data.json";
+const apiURL ="./data.json";
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsonObject) => {
