@@ -459,7 +459,7 @@ h2 {
   justify-content: center;
 }
 
-nav {
+nav, footer {
   background-color: #77A612;
   text-align: center;
   color: #ECF22E;
